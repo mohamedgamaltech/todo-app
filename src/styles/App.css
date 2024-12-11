@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-todo input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.add-todo button {
+  padding: 5px 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.todo-item .completed {
+  text-decoration: line-through;
+}
+
+.filter-bar button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-bar button.active {
+  background-color: #007bff;
+  color: white;
+}

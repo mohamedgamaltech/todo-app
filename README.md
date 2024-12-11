@@ -1,1 +1,3 @@
-# todo-app
+# Todo app
+
+# React + TypeScript + Vite
